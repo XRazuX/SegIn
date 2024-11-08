@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(209, 206, 13);
+}
+body{
+    background-color: rgb(209, 206, 13);
+    border: solid 2px rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+h1{
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}
+p{
+    color: blue;
+    
+}
+h2{
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}
+h3{
+    color: blue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    text-align: justify;
+}
+.colorrojo1{color: red;}
+.colorrojo2{color: red;}
+.colorverdesub{color: green;}
