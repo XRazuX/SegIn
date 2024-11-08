@@ -1,0 +1,49 @@
+/*
+    Christian Martinez Gomez
+    Septiembre 2024
+*/
+
+body{
+    color: white;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+div>div{
+    width: 200px;
+    height: 100px;
+    padding: 40px 5px 40px 5px;
+    text-align: center;
+    border-radius: 50%;
+
+}
+#cajaNegra{
+    background-color: black;
+    float: left;
+}
+#cajaAzul{
+    background-color: blue;
+    float: left;
+}
+#cajaVerde{
+    background-color: darkgreen;
+    float: left;
+}
+#cajaRoja{
+    background-color: red;
+    float: left;
+}
+
+#lineaNegra{
+    background-color: rgb(77, 70, 70);
+    padding: 30px
+    ;
+}
+#lineaRoja{
+    background-color: red;
+    clear: both;
+    padding: 30px;
+}

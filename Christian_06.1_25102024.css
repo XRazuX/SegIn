@@ -1,0 +1,48 @@
+/*
+Practica 6.1 Diseño Flexbox y Diseño Grid
+*/
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.MenuFlex{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: 40px auto 40px auto;
+    border: 5px double;
+}
+
+.MenuFlex a{
+    flex-grow: 1;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+}
+
+.MenuGrib{
+    width: 20%;
+    margin:auto 70px;
+    border: 5px double;
+}
+
+.MenuGrib a{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+}
+.MenuFlex a:hover{
+    background-color: white;
+    color: black;
+}
+.MenuGrib a:hover{
+    background-color:white;
+    color:black;
+}
