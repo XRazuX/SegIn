@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Christian_14_08112024.css">
+</head>
+<body>
+    <div class="contacto">
+        <h1>Contacto</h1>
+        <div class="linea"></div>
+        <form action="contact.php" method="post" class="formulario">
+            <input type="text" placeholder="Tu Nombre" name="nombre">
+            <label for="nombre1">Tu Nombre:</label>
+            <input id="nombre1" type="text" placeholder="Tu correo" name="Correo electronico">
+            <input type="tel" placeholder="Teléfono" name="telefono">
+            <textarea placeholder="Tu mensaje" rows="10" cols="30" name="mensaje"></textarea>
+            <select id="pais" name="paise">
+                <option value="Español">Español</option>
+                <option value="Italia">Italiano</option>
+                <option value="Rusia">Ruso</option>
+                <option value="Inglaterra">Ingles</option>
+                <option value="Japon">Japones</option>
+                <option value="Otro">Otro</option>
+            </select>
+            <fieldset>
+                <legend>Fecha nacimiento y Cumpleaños</legend>
+                <label for="fname">Fecha de nacimiento </label>
+                <input type="text" id="fname" name="fname" value="Fecha">
+                <label for="lname">Edad</label>
+               <input type="text" id="lname" name="lname" value="Años"><br><br>
+                <input type="submit" value="Enviar">
+             </fieldset>
+             
+            <input type="submit" value="Enviar">
+        </form>
+     </div>
+     
+     
+</body>
+</html>
