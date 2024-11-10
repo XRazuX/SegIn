@@ -2,7 +2,10 @@
     Christina Martinez Gomez
     Septiembre 2024
 */
-
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
 *{
     margin: 0px;
     box-sizing: border-box;
@@ -14,44 +17,44 @@ body{
 
 body{
     background-color: rgb(170, 127, 70);
-    border: solid 5px brown;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 25px;
+    border: solid 0,5rem brown;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 2,5rem;
 }
 
 h1{
     background-color: aqua;
     color: white;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1,5rem;
     text-align: justify;
 }
 
 h2{
     background-color: brown;
     color: black;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1,5rem;
     text-align: justify;
 }
 
 h3{
     background-color: blueviolet;
     color: darkgoldenrod;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1,5rem;
     text-align: justify;
 }
 
 h4{
     background-color: forestgreen;
     color: maroon;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 15px;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 1,5rem;
     text-align: justify;
 }
