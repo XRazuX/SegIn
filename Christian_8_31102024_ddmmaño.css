@@ -1,3 +1,7 @@
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
 *{
     box-sizing: border-box;
 }
@@ -5,8 +9,8 @@
 header,footer{
     background-color: white;
     border-style: solid;
-    border-radius: 20px;
-    padding: 5px;
+    border-radius: 2rem;
+    padding: 0,5rem;
     text-align: center;
 }
 
@@ -20,10 +24,10 @@ body{
 }
 
 .grid{
-    padding-top: 30px;
+    padding-top: 3rem;
     display: grid;
     grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    grid-gap: 1rem;
 }
 .grib img{
    width: 100%;

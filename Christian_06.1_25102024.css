@@ -1,7 +1,10 @@
 /*
 Practica 6.1 Diseño Flexbox y Diseño Grid
 */
-
+html{
+    box-sizing: border-box;
+    font-size: 62,5%;
+}
 *{
     box-sizing: border-box;
     margin: 0px;
@@ -20,14 +23,14 @@ Practica 6.1 Diseño Flexbox y Diseño Grid
     background-color: black;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 2rem;
     display: block;
 }
 
 .MenuGrib{
     width: 20%;
-    margin:auto 70px;
-    border: 5px double;
+    margin:auto 7rem;
+    border: 0,5rem double;
 }
 
 .MenuGrib a{
@@ -36,7 +39,7 @@ Practica 6.1 Diseño Flexbox y Diseño Grid
     background-color: black;
     color: white;
     text-decoration: none;
-    padding: 20px;
+    padding: 2rem;
 }
 .MenuFlex a:hover{
     background-color: white;
